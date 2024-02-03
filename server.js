@@ -43,7 +43,9 @@ app.get("/api/test", async (req, res) => {
 
 setInterval(async () => {
   try {
-    const response = await axios.get(`https://ganshelshoshanim.com/api/test`);
+    const response = await axios.get(
+      `https://o-pea-app-cd5a.onrender.com/api/test`
+    );
     console.log("Request to / successful:", response.data);
   } catch (error) {
     console.error("Error making request to /:", error.message);
