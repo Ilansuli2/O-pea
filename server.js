@@ -44,7 +44,7 @@ app.get("/api/test", async (req, res) => {
 setInterval(async () => {
   try {
     const response = await axios.get(
-      `https://o-pea-app-cd5a.onrender.com/api/test`
+      `https://o-pea-m2qy.onrender.com/api/test`
     );
     console.log("Request to / successful:", response.data);
   } catch (error) {
